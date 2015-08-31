@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>osSlider - DEMO</title>
+    <link rel="stylesheet" href="./base.css" />
+    <link rel="stylesheet" href="./demo.css" />
+    <link rel="stylesheet" href="../css/osSlider.css" />
+</head>
+<body>
+    <!-- 任意的轮播结构 -->
+    <div class="slider">
+        <ul class="slider-main">
+            <li>
+                <img src="./images/1.jpg" alt="">
+            </li>
+            <li>
+                <img src="./images/2.jpg" alt="">
+            </li>
+            <li>
+                <img src="./images/3.jpg" alt="">
+            </li>
+            <li>
+                <img src="./images/4.jpg" alt="">
+            </li>
+        </ul>
+    </div>
+<script src="../script/jquery-1.8.0.js"></script>
+<script src="../script/osSlider.js"></script>
+<script type="text/javascript">
+    var slider = new osSlider({ //开始创建效果
+        pNode:'.slider', //容器的选择器 必填
+        cNode:'.slider-main li', //轮播体的选择器 必填
+        speed:3000, //速度 默认3000 可不填写
+        autoPlay:true //是否自动播放 默认true 可不填写
+    });
+</script>
+</body>
+</html>
