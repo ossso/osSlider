@@ -27,8 +27,8 @@
 插件采用构造函数编写，使用时需要实例化；  
 对象属性说明:
 1. pNode        [轮播容器选择器 - 必填项]  
-2. cNode        [轮播项选择器 - 必填项]
-3. speed        [速度，单位ms，默认3000 - 选填]  
-3. autoPlay     [自动播放，true|false，默认true - 选填]    
+2. cNode        [轮播项选择器 - 必填项  必须为容器选择器（不包含容器本身）]  
+3. speed        [速度，单位ms，默认3000 - 选填]    
+4. autoPlay     [自动播放，true|false，默认true - 选填]    
 
 更多内容请参考demo/demo.html
